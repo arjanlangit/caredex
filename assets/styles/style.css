@@ -1,0 +1,116 @@
+/* import fonts for the header logo */
+@font-face {
+	font-family: foxcat;
+	src: url('../fonts/Fox & Cat.ttf') format('truetype');
+}
+/*============HEADER===========*/
+.control-logo {
+	width: 150px;
+}
+
+
+/*===========NAVBAR==============*/
+.fixed-top.scrolled {
+	background-color: #343a40 !important;
+	transition: background-color 200ms linear;
+	color: #fff !important;
+}
+.sticky-top.scrolled a {
+	color: #717b85 !important;
+}
+.sticky-top.scrolled a:hover {
+	color: #c4421a !important;
+}
+.alink {
+	color:  rgba(0,0,0,.5);
+}
+.alink:hover {
+	color: #00838f !important;
+ /* color: #bd3f32 !important;*/
+}
+.alink-uline {
+	color: #bd3f32 !important;
+}
+.alink-uline:hover {
+	color: #bd3f32 !important;
+	text-decoration: underline;
+}
+.btn:focus,.btn:active {
+	outline: none !important;
+	box-shadow: none;
+}
+.no-arrow .dropdown:hover>.dropdown-menu {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	display: block !important;
+}
+.active {
+	color: #004d40 !important;
+}
+@keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+} 
+@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+.fadeIn {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+.animation {
+	-webkit-animation-duration: 7s;
+	animation-duration: 7s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+/*====================CARD BODY FOR FORMS*/
+.page-title {
+	font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 70px;
+    font-weight: 600;
+	padding-left: 40px;
+}
+
+.header-title {
+	font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.pull-button {
+	width: 84rem;
+}
+.btn-mcvt {
+	background: -webkit-linear-gradient(bottom, #00838f 0%, #004d40 100%);
+	background:  -o-linear-gradient(bottom,#00838f 0%, #004d40 100%);
+	background: -moz-linear-gradient(bottom, #00838f 0%, #004d40 100%);
+	background: -ms-linear-gradient(bottom, #00838f 0%, #004d40 100%); 
+	color: #fff;
+}
+.btn-mcvt:hover {
+	background: -webkit-linear-gradient(bottom,#006872 0%, #00352c 100%);
+	background:  -o-linear-gradient(bottom, #cb356b 0%, #bd3f32 100%);
+	background: -moz-linear-gradient(bottom, #cb356b 0%, #bd3f32 100%);
+	background: -ms-linear-gradient(bottom, #cb356b 0%, #bd3f32 100%); 
+	color: #fff;
+}
+.table-fix {
+	width: 100%;
+}
+/* form */
+.alert-form {
+	display: none !important;
+}
+
+
+/*button styles*/
+.btn {
+	box-shadow: none !important;
+}

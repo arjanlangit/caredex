@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="author" content="TeamKitty">
+    <!--title-->
+        <title>Dashboard | Caredex</title>
+    <!--icons-->
+        <link href="assets/icons/fontawesome-free-5.7.2-web/css/fontawesome.css" rel="stylesheet" />
+        <link href="assets/icons/fontawesome-free-5.7.2-web/css/solid.css" rel="stylesheet" />
+    <!--bootstrap core css-->
+        <link rel="stylesheet" href="assets/styles/bootstrapcss/bootstrap.css" />
+    <!-- Material Design Bootstrap -->
+        <link href="assets/plugins/mdb-free_4.7.5/css/mdb.css" rel="stylesheet">
+    <!--logo-->
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/output-1.png">
+    <!--custom styles-->
+            <link rel="stylesheet" href="assets/styles/custom.css" />
+    <!--internal style-->
+        <style>
+        body {
+            overflow-x: hidden !important;
+        }
+        </style>
+</head>
+<body>
+
+    <!--=================NAVBAR======================-->
+    <!--Main Navigation-->
+        <nav class="p-3 navbar navbar-expand-xl navbar-light bg-white sticky sticky-top">
+            <a class="navbar-brand" href="#">
+                <img class="img-fluid pt-0" src="assets/images/Caredex-2.png" width="150px;" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbar-main">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item active pr-3">
+                            <a class="nav-link waves-effect text-white waves-light pl-5 pr-5" href="admin_dashboard.html"><i class="fas fa-th-large"> Dashboard</i>
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown pr-3 no-arrow">
+                            <a class="nav-link dropdown-toggle waves-effect waves-light pl-5 pr-5" id="agents-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-injured"></i> Patient
+                            </a>
+                            <div class="dropdown-menu fadeIn dropdown-secondary" aria-labelledby="agents-dropdown">
+                                <a class="dropdown-item waves-effect waves-light" href="admin_add_patient.html"><i class="fas fa-plus"></i> Add</a>
+                                <a class="dropdown-item waves-effect waves-light" href="admin_view_patient.php"><i class="fas fa-search"></i> View</a>
+                            </div>
+                        </li>
+                        <li class="nav-item pr-3">
+                            <a class="nav-link waves-effect waves-light pl-5 pr-5" href="admin_nurse.html"><i class="fa fa-user-nurse"></i> Nurse</a>
+                        </li>
+                        <li class="nav-item dropdown pr-3 no-arrow">
+                            <a class="nav-link dropdown-toggle waves-effect waves-light pl-5 pr-5" id="agents-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-clock"></i> Schedule
+                            </a>
+                            <div class="dropdown-menu fadeIn dropdown-secondary" aria-labelledby="agents-dropdown">
+                                <a class="dropdown-item waves-effect waves-light" href="admin_mng_schedule.html"><i class="fas fa-edit"></i> Manage</a>
+                                <a class="dropdown-item waves-effect waves-light" href="admin_view_schedule.html"><i class="fas fa-search"></i> View</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto nav-flex-icons">
+                        <li class="nav-item pt-2">
+                                Denielle
+                        </li>
+                        <li class="nav-item avatar dropdown">
+                            <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink-5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <img src="assets/images/profile-holder.jpg" class="img-fluid rounded-circle z-depth-0" style="width:30px" alt="Material Design for Bootstrap - example photo">
+                            </a>
+                            <div class="dropdown-menu fadeIn dropdown-menu-right dropdown-secondary" aria-labelledby="navbarDropdownMenuLink-5">
+                                <a class="dropdown-item waves-effect waves-light" href="#">Profile</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item waves-effect waves-light" href="#">Sign Out</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+<!--Main Navigation-->
+
+<!--Main Layout-->
+<main class="grey lighten-3" style="min-height:80vh">
+    <!--breadcrumb-->
+    <div class="row d-flex justify-content-center"><!--first row-->
+        <h3 class="pl-3 m-3 text-uppercase text-primary font-weight-bold ">verification</h3>
+    </div><!--first row-->
+    <!--breadcrumb-->
+    <!-- qr holder -->
+    <div class="row d-flex justify-content-center"><!--first row-->
+        <h3 class="m-5 p-5 w-25 text-uppercase text-primary font-weight-bold primary-color"></h3>
+    </div><!--first row-->
+
+
+
+    <div class="row text-center">
+        <div class="col-md-12">
+            <button type="button" class="btn btn-secondary rounded-pill"><a href="deviceNotifC.html" class="text-white">Finish</a></button>
+        </div>
+    </div>
+</main>
+<!--Main Layout-->
+<!-- Footer -->
+<footer class="page-footer font-small grey lighten-5">
+
+        <!-- Copyright -->
+        <div class="footer-copyright font-weight-normal text-center blue-grey-text  py-3">© 2019 Copyright:
+          <a href="#" class="light-blue-text"> TeamKitty</a>
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
+      <!-- Footer -->
+
+
+ 
+
+ 
+</body>
+<!-- SCRIPTS -->
+    <!-- JQuery -->
+        <script type="text/javascript" src="assets/scripts/jqueryjs/jquery.js"></script>
+    <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="assets/scripts/popperjs/popper.js"></script>
+    <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="assets/scripts/boostrapjs/bootstrap.js"></script>
+    <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="assets/plugins/mdb-free_4.7.5/js/bootstrap.js"></script>
+    <!--Custom Javascript-->
+        <script type="text/javascript" src="assets/scripts/script.js"></script>
+</html>
