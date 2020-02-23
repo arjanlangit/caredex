@@ -1,12 +1,12 @@
 # Caredex
 
-The system that sends and receives data from a device
-This system is created for our research entitled:
+The system that sends and receives data from a device <br/>
+This system is created for our research entitled: <br/>
 
 # Caredex: A Nurse Smart Gadget with Web-based Patient Medication Information System
 
-Researchers / Developers:
-Abarca, Nikki G.
-Gonzales, Denielle C.
-Sumayao, Ryan Jeff A.
-Villon, Arjan Heaven E.
+Researchers / Developers: <br/>
+Abarca, Nikki G. <br/>
+Gonzales, Denielle C. <br/>
+Sumayao, Ryan Jeff A. <br/>
+Villon, Arjan Heaven E. <br/>
