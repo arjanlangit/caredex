@@ -1,11 +1,11 @@
 # Caredex
+> A combined hardware and software project to help the nurses monitor a patients data through a website. \
+> Used Arduino for the hardware. \
+> Used PHP to handle the backend of the website. \
+> This system is created for our research entitled: Caredex: A Nurse Smart Gadget with Web-based Patient Medication Information System \
 
-The system that sends and receives data from a device <br/>
-This system is created for our research entitled: <br/>
 
-# Caredex: A Nurse Smart Gadget with Web-based Patient Medication Information System
-
-Researchers / Developers: <br/>
+## Researchers / Developers: <br/>
 Abarca, Nikki G. <br/>
 Gonzales, Denielle C. <br/>
 Sumayao, Ryan Jeff A. <br/>
